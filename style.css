@@ -1,0 +1,1382 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-1 {
+    width: 100%;
+    height: 783px;
+    background-color: #f5efef;
+
+}
+
+/* Reset some default styles */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the navigation bar */
+.navbar {
+    /* width: 1439.98px; */
+    height: 77px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* Change to your preferred background color */
+    color: blue;
+    /* Change to your preferred text color */
+}
+
+/* Style the logo */
+.navbar-brand a {
+    left: 400px;
+    padding: 15px 0px 0px 108px;
+    font-size: 24px;
+    /* Adjust the size as needed */
+    text-decoration: none;
+    color: black;
+    /* Change to your preferred text color */
+}
+
+/* Style the navigation links */
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    padding: 15px 108px 0px 0px;
+    gap: 10px
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+    /* Adjust the spacing between links */
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: #4F4F4F;
+
+    /* Change to your preferred text color */
+    font-weight: bold;
+}
+
+/* Add hover effect to links if desired */
+.navbar-nav a:hover {
+    text-decoration: none;
+}
+
+
+.login a {
+    
+    /* height: Hug 47px; */
+    /* padding: 15px, 36px, 15px, 36px; */
+    border-radius: 2px;
+    border: 1px;
+    gap: 10px;
+    color: #2F80ED;
+
+    border: 1px solid #2F80ED
+}
+
+/* Apply styles to the announcement */
+.announcement {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* width: 1440px; */
+    height: 37px;
+    background: #2F80ED;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+/* Inside auto layout */
+.announcement p {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
+
+
+
+.page-flex1 {
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 308px;
+    position: absolute;
+    left: 110px;
+    top: 226px;
+    gap: 35px;
+
+}
+
+.text-1 {
+    /* Launch your career with our */
+    position: absolute;
+
+    width: 638px;
+    height: 65px;
+
+    font-family: sans-serif 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 130%;
+    /* identical to box height, or 65px */
+    letter-spacing: -0.015em;
+
+    /* BLACK */
+    color: #2B2F34;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.text-2 {
+    /* Full Stack Developer Courses */
+
+    position: relative;
+    width: 674px;
+    height: 65px;
+    bottom: 120px;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 130%;
+    /* identical to box height, or 65px */
+    letter-spacing: -0.015em;
+
+    /* PRIMARY / SKY BLUE */
+    color: #2F80ED;
+
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.text-2-1 {
+    color: black;
+}
+
+.para {
+
+    /* Curriculum designed and taught by Alumni from IIT’s & Leading Tech Companies. */
+    position: relative;
+    width: 492px;
+    height: 46px;
+
+    top: 10px;
+
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    letter-spacing: 0.02em;
+
+    /* TEXT LABEL COLORS / CHARCOAL */
+    color: #595959;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.svg-1 {
+    top: 190px;
+    right: 40px;
+    position: relative;
+    width: Fixed (711px);
+    height: Fixed (77px);
+    padding: 0px, 0px, 0px, 0px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 34px;
+
+}
+
+.form-1 {
+
+    position: absolute;
+    width: 415px;
+    height: 496px;
+    left: 917px;
+    top: 197px;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.form-1::after {
+    position: absolute;
+    width: 415px;
+    height: 430px;
+    left: 0px;
+    top: 0px;
+    filter: blur(80px);
+    box-shadow: 0px 25px 54px 0px #0000001F;
+
+}
+
+.box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: white;
+    margin-left: 57px;
+    margin-top: 20px;
+    width: 291px;
+    height: 151px;
+    gap: 4px;
+
+}
+
+.title {
+    width: 291px;
+    height: 96px;
+
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    /* BLACK */
+    color: #2B2F34;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title-1 {
+    /* Live lectures & Assignments curated by Top Tech Proffesionals */
+
+    width: 278px;
+    height: 48px;
+
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+
+    color: #818D9D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+
+    width: 366px;
+    height: 118px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.name {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 24px;
+    margin-top: 20px;
+    width: 366px;
+    height: 52px;
+
+    background: #FAFAFA;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.phone {
+    margin-left: 24px;
+    margin-top: 6px;
+    gap: 10px;
+
+
+    border-radius: 8px;
+    gap: 10px;
+
+}
+
+.Frame1000001628 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 90px;
+    padding: 0px;
+    gap: 14px;
+
+    width: 367px;
+    height: 111px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.Frame1000001622 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 44px;
+    gap: 10px;
+
+    width: 367px;
+    height: 55px;
+
+    /* New */
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.click {
+
+    width: 165px;
+    height: 27px;
+    color: white;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.condition {
+    width: 291px;
+    height: 42px;
+
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    /* or 21px */
+    text-align: center;
+
+    color: #818D9D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.Frame1000002035 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+    gap: 10px;
+    left: 110px;
+    top: 500px;
+
+    position: relative;
+    width: 261px;
+    height: 41px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.12);
+    border-radius: 23px;
+}
+
+.madeby {
+    width: 221px;
+    height: 21px;
+
+    font-family: '?????';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    color: #525252;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.page-2 {
+    width: 100%;
+    height: 864px;
+    padding: 0px;
+    background-color: #ECF8FF;
+
+
+
+}
+
+.page-2 svg {
+    margin-top: 80px;
+    margin-left: 500px
+}
+
+.course {
+
+    width: 254px;
+    height: 54px;
+    margin-left: 573px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150%;
+    /* identical to box height, or 54px */
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #2F80ED;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.beginner {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+
+    width: 498px;
+    height: 563px;
+
+    background: #FFFFFF;
+    /* PRIMARY/SKY BLUE */
+    border: 2px solid #2F80ED;
+    border-radius: 9px;
+    margin-left: 190px;
+    margin-top: 70px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+
+
+    /* Auto layout */
+}
+
+
+.page-2 .beginner .border-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+
+    gap: 18px;
+    width: 230px;
+    height: 29px;
+    left: 134px;
+    top: -15px;
+    padding: 6px 15px 6px 15px;
+
+    /* PRIMARY/SKY BLUE */
+    background: #2F80ED;
+    border: 2px solid #2F80ED;
+    border-radius: 7px;
+
+}
+
+.text-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 210px;
+    height: 17px;
+    padding: 5px;
+
+
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    /* WHITE */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.box-beginner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 296px;
+    height: 107px;
+    top: 31px;
+    gap: 12px;
+
+
+
+}
+
+.Frame1000001918 {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 36px;
+
+    gap: 8px;
+
+
+
+}
+
+.frame-svg {
+    width: 36px;
+    height: 36px;
+    padding: 5px;
+
+}
+
+.frame-svg-2 {
+    font-family: ABeeZee;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.frame2028 {
+    display: flex;
+    flex-direction: row;
+    width: 284px;
+    height: 26px;
+    gap: 12px;
+
+}
+
+.frame2029 {
+    width: 296px;
+    height: 21px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 0px;
+
+}
+
+.gaurantee {
+    width: 148px;
+    height: 26px;
+    border-radius: 7px;
+    gap: 18px;
+    background: #E0F3FF;
+
+}
+
+.text-gaurantee {
+    width: 118px;
+    height: 14px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    margin-left: 14px;
+    color: #1D78B0;
+
+}
+
+.access {
+    width: 124px;
+    height: 26px;
+    border-radius: 7px;
+
+    gap: 18px;
+    background-color: #E0F3FF;
+
+
+}
+
+.access-1 {
+    color: #1D78B0;
+    width: 94px;
+    height: 14px;
+    margin-left: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    width: 426px;
+    height: 266px;
+    margin-top: 20px;
+    top: 176px;
+    left: 36px;
+    gap: 18px;
+
+}
+
+.Frame1000001928 {
+    display: flex;
+    flex-direction: row;
+    width: 425px;
+    height: 22px;
+    gap: 71px;
+
+}
+
+.Frame1000001923 {
+    display: flex;
+    width: 161px;
+    height: 22px;
+    gap: 8px;
+}
+
+.Frame1000001923-text {
+    width: 131px;
+    height: 16px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.Frame1000001924-text {
+    width: 155px;
+    height: 19px;
+
+}
+
+.Frame1000001929 {
+    display: flex;
+    flex-direction: row;
+    width: 425px;
+    height: 38px;
+    gap: 71px;
+
+}
+
+.Frame1000001929-text {
+    display: flex;
+    flex-direction: row;
+    width: 159px;
+    height: 20px;
+    gap: 8px;
+}
+
+.Frame1000001929-text-2 {
+    width: 175px;
+    height: 38px;
+}
+
+.Frame1000001929-text-3 {
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Frame1000001930 {
+    display: flex;
+    flex-direction: row;
+    width: 425px;
+    height: 20px;
+    gap: 71px;
+
+}
+
+.Frame1000001930-text {
+    display: flex;
+    flex-direction: row;
+    width: 159px;
+    height: 20px;
+    gap: 8px;
+
+}
+
+.Frame1000001930-text-1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.Frame1000001930-text-1 {
+    width: 155px;
+    height: 19px;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.Frame1000001931 {
+    display: flex;
+    flex-direction: row;
+    width: 425px;
+    height: 20px;
+    gap: 71px;
+
+}
+
+.Frame1000001931-text {
+    display: flex;
+    flex-direction: row;
+    width: 159px;
+    height: 20px;
+    gap: 8px;
+}
+
+.Frame1000001931-text-1 {
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Frame1000001932 {
+    display: flex;
+    flex-direction: row;
+    width: 425px;
+    height: 22px;
+    gap: 71px;
+
+}
+
+.Frame1000001932-text {
+    display: flex;
+    flex-direction: row;
+    width: 161px;
+    height: 22px;
+    gap: 8px;
+}
+
+.Next {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 5px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.date {
+    width: 155px;
+    height: 19px;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Frame1000003027 {
+    display: flex;
+    flex-direction: row;
+    width: 426px;
+    height: 55px;
+    margin-top: 35px;
+    top: 484px;
+    left: 36px;
+    gap: 13px;
+
+}
+
+.download-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 203px;
+    height: 55px;
+    padding: 14px, 6px, 14px, 6px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 10px;
+    border: 1px solid #2F80ED
+}
+
+.download-text {
+    width: 75px;
+    height: 27px;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2F80ED;
+
+
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 55px;
+    padding: 14px, 6px, 14px, 16px;
+    border-radius: 8px;
+    gap: 2px;
+    color: white;
+    background: #2F80ED;
+
+
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 498px;
+    height: 563px;
+    border-radius: 9px;
+    border: 1px;
+    background-color: white;
+    border: 1px solid #E2E2E2;
+
+    margin-top: -567px;
+    margin-left: 750px;
+}
+
+.Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 302px;
+    height: 107px;
+    margin-top: 31px;
+    margin-left: 98px;
+    gap: 12px;
+
+
+}
+
+.Frame1000001918 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 199px;
+    height: 36px;
+    gap: 8px;
+    background-color: #E0F3FF;
+
+}
+
+.intermediate {
+    width: 155px;
+    height: 31px;
+    font-family: ABeeZee;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+
+}
+
+.Frame1000003029 {
+    display: flex;
+    flex-direction: row;
+    width: 287px;
+    height: 26px;
+    gap: 12px;
+}
+
+.Frame1000001909 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 151px;
+    height: 26px;
+    padding: 6px, 15px, 6px, 15px;
+    border-radius: 7px;
+    gap: 18px;
+    background: #FFEED8;
+
+}
+
+.Frame1000001909-text {
+    width: 121px;
+    height: 14px;
+    color: #965400;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.Frame100000119 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 124px;
+    height: 26px;
+    padding: 6px, 15px, 6px, 15px;
+    border-radius: 7px;
+    gap: 18px;
+    background: #FFEED8;
+
+
+
+
+}
+
+.Frame100000119-text {
+    width: 94px;
+    height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #965400;
+
+
+}
+
+.Frame101 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 302px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #565656;
+
+
+
+}
+
+.card-2 {
+    display: flex;
+    flex-direction: column;
+    width: 426px;
+    height: 266px;
+    margin-top: 20px;
+    top: 176px;
+    left: 36px;
+    gap: 18px;
+
+    margin-left: 35px;
+
+}
+
+.Frame1000003033 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+
+
+/*page-3*/
+
+.page-3 {
+    width: 100%;
+    height: 794px;
+    background: #FFFFFF;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 641px;
+    height: 182px;
+    margin-top: 96px;
+    margin-left: 399.5px;
+    gap: 6px;
+
+
+
+}
+
+.hiring-1 {
+    width: 251px;
+    height: 19px;
+    text-transform: uppercase;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    top: 0px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+    ;
+
+}
+
+.Frame1000001941 {
+
+    width: 641px;
+    height: 157px;
+    gap: 8px;
+
+}
+
+.start-up {
+    width: 641px;
+    height: 126px;
+
+    font-family: ABeeZee;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: -0.015em;
+    text-align: center;
+
+}
+
+.Frame103 {
+    color: blue;
+}
+
+.package {
+
+    width: 230px;
+    height: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    margin-left: 33%;
+    margin-top: 10px;
+    text-align: left;
+    color: #595959;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    width: 1224px;
+    height: 306px;
+    top: 323px;
+    margin-left: 108px;
+    gap: 48px;
+    margin-top: 55px;
+
+
+}
+
+.Frame635 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1224px;
+    height: 70px;
+    gap: 54px;
+
+
+}
+
+.Frame635-1 {
+    width: 168.69px;
+    height: 70px;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+.walmart {
+    width: 148.69px;
+    height: 32.61px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.Frame635-2 {
+    width: 154.69px;
+    height: 70px;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+
+.Frame635-3 {
+
+    width: 154.69px;
+    height: 70px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.button {
+    width: 276px;
+    height: 55px;
+    top: 670px;
+    left: 582px;
+    padding: 14px, 6px, 14px, 16px;
+    border-radius: 8px;
+    gap: 2px;
+    background: rgba(47, 128, 237, 1);
+    color: white;
+    margin-top: 60px;
+    margin-left: 44%;
+
+
+}
+
+/*page-4*/
+
+
+.page-4 {
+    width: 100%;
+    height: 972px;
+    padding: 96px 107px 138px 107px;
+   
+}
+
+.container-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1226px;
+    height: 738px;
+
+    gap: 54px;
+
+}
+
+.Frame1001931 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 94px;
+    gap: 8px;
+
+
+}
+
+.Frame1001931-text {
+    width: 420px;
+    height: 63px;
+    font-family: ABeeZee;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #2B2F34;
+
+
+}
+
+.Frame1001931-text-1 {
+    width: 181px;
+    height: 23px;
+    color: #595959;
+    left: 33%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.grid-box {
+    display:grid;
+    gap: 15px;
+    width: 1226px;
+    height: 950px;
+    
+    grid-template-columns: 398px 398px 398px;
+      grid-template-rows: 195px 195px 195px
+}
+
+.box-1 {
+    width: 398px;
+    height: 261px;
+    padding: 24px;
+    border-radius: 10px;
+    border: 2px;
+    gap: 15px;
+    background-color: white;
+    border: 2px solid #D7D7D7
+}
+
+.item-box-1 {
+    width: 350px;
+    height: 180px;
+    gap: 20px;
+    background-color: white;
+
+}
+
+.item-box-2 {
+    width: 62px;
+    height: 18px;
+    padding: auto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #676767;
+
+}
+
+.box-2 {
+    width: 398px;
+    height: 290px;
+    top: 281px;
+    padding: 24px;
+    border-radius: 10px;
+    border: 2px;
+    gap: 15px;
+    background: white
+}
+
+
+
+
+
+/* Add more styles for other elements in the Features section as needed */
+
+/* Add styles for other sections and elements as specified in your CSS */
